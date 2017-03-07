@@ -15,6 +15,7 @@
 		0FB30B5E1E67FBF7007D9C27 /* tip_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB30B5D1E67FBF7007D9C27 /* tip_calcUITests.swift */; };
 		0FB30B6C1E6807F4007D9C27 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB30B6B1E6807F4007D9C27 /* CalculatorViewController.swift */; };
 		0FB30B721E6D2C66007D9C27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB30B711E6D2C66007D9C27 /* SettingsViewController.swift */; };
+		0FB30B741E6E33E8007D9C27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB30B731E6E33E8007D9C27 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0FB30B5F1E67FBF7007D9C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FB30B6B1E6807F4007D9C27 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		0FB30B711E6D2C66007D9C27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0FB30B731E6E33E8007D9C27 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0FB30B441E67FBF7007D9C27 /* Assets.xcassets */,
 				0FB30B461E67FBF7007D9C27 /* LaunchScreen.storyboard */,
 				0FB30B491E67FBF7007D9C27 /* Info.plist */,
+				0FB30B731E6E33E8007D9C27 /* Extensions.swift */,
 			);
 			path = tip_calc;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				0FB30B6C1E6807F4007D9C27 /* CalculatorViewController.swift in Sources */,
 				0FB30B3E1E67FBF7007D9C27 /* AppDelegate.swift in Sources */,
 				0FB30B721E6D2C66007D9C27 /* SettingsViewController.swift in Sources */,
+				0FB30B741E6E33E8007D9C27 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

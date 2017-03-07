@@ -4,7 +4,7 @@
 
 Submitted by: **Deniz Tumer**
 
-Time spent: **2** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -16,28 +16,31 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 * [ ] UI animations
 * [x] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
+* [x] Using locale-specific currency.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [x] Tip amount is a UITextField. Allows for more precise and special case tip amounts
+- [x] Added an application icon in order for the application to be easily recognized on a device
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/Gp4ATbA' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had some interesting problems with UITableView while creating the default settings view that I could not figure out (the table view static cells were not loading properly). I instead used separate buttons for each custom default tip amount and linked these buttons to a common default tip modifier function.
+
+Also wanted to implement some appealing UI features. Used simplistic design with eye catching colors to make the application as easy on the eyes as possible.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2017 Deniz Tumer
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
